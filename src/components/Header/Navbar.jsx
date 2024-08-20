@@ -1,7 +1,7 @@
 function Navbar() {
     return( <nav className="navbar">
         <div className="navbar-container">
-            <a href="/" className="portfolio">Portfolio</a>
+            <div className="portfolio">Portfolio</div>
             <ul>
                 <li>
                     <a href="/aboutme">About Me</a>
