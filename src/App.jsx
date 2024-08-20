@@ -1,19 +1,17 @@
 import './App.css';
-import Portfolio from './pages/Portfolio';
-import Aboutme from './pages/Aboutme';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
-import Navbar from './components/Header/Navbar';
 import { Outlet } from 'react-router-dom';
+
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
     return (
-        <div className="App">
-            <Navbar />
+        <div className="App min-100-vh">
+            <Header />
             <div>
                 <Outlet />
             </div>
-            
+           <Footer /> 
         </div>
     );
 }

@@ -1,5 +1,6 @@
-function Navbar() {
-    return( <nav className="navbar">
+function Header() {
+    return(
+    <nav className="navbar">
         <div className="navbar-container">
             <div className="portfolio">Portfolio</div>
             <ul>
@@ -21,4 +22,4 @@ function Navbar() {
     );
 } 
 
-export default Navbar;
+export default Header;
